@@ -1,0 +1,127 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  max-width: 1220px;
+  margin: 0 auto;
+}
+
+header {
+  padding: 21px 0;
+  border-bottom: 1px solid #bcaaaa;
+  box-shadow: 0px 4px 8.7px 0px #00000040;
+}
+header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 64px;
+}
+nav ul li a {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 29.05px;
+  color: #bcaaaa;
+  text-decoration: none;
+}
+nav ul li a:hover {
+  color: #ef400f;
+  border-bottom: 3px solid #ef400f;
+  padding-bottom: 15px;
+}
+header .container div {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.btn--post {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 29.05px;
+  color: #ef400f;
+  padding: 16px 18px;
+  border: 3px solid #ef400f;
+  background-color: white;
+  border-radius: 20px;
+}
+
+.card {
+  width: 290px;
+  height: 290px;
+  padding: 44px 52px;
+  text-align: center;
+  background: #ffffff;
+  box-shadow: 0px 4px 13.3px 0px #00000040;
+  border-radius: 30px;
+}
+main {
+  background: #f5f5f5;
+  padding: 30px 0;
+}
+.coins {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  justify-content: center;
+  margin: 10px auto;
+}
+.card-box {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.hero__top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 25px 0;
+}
+.hero__top h2 {
+  color: #0d0c5c;
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 48.41px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.hero__top h3 {
+  color: #EF400F;
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 48.41px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.input-box{
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+.input-box input{
+  width: 386px;
+  height: 63px;
+  background-color: black;
+  color: white;
+  padding: 10px;
+  border-radius: 15px;
+  font-size: 22px;
+}
+.btn{
+  color: white;
+  font-size: 22px;
+  background: #0D0D5B;
+  padding: 12px 32px;
+  border-radius: 15px;
+}
